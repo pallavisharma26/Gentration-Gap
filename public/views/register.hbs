@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+    <link rel="stylesheet"  href="./stylesheets/home.css">
+    <link rel="stylesheet" type="text/css"  href="./stylesheets/register-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="nav">
+            <img src="./images/logo.jpeg" alt=""/>
+            <a class="hactive" href="/"><b>Home</b></a>
+            <a href="/register" ><b>Register</b></a>
+            <a href="/login"><b>Login</b></a>
+            <a href="/about"><b>About Us</b></a>
+            </div>
+        <div class="background">
+            <div class="text">
+                <h1>Register</h1>
+                <p>Already have an account? <a href="/login">Login</a></p>
+            </div>
+            <div class="box">
+                <form class="form"  method="post" action="/register">
+                    <input name = "username" type="text" class="fullname" placeholder="Full Name" required>
+                    <input name="email"    type="email" class="email" placeholder="someone@abc.com" required>
+                    <input name="age"   type="number" class="age" placeholder="Age" required>
+                    <input name="occupation" type="text" class="occupation"placeholder="Occupation" required>
+                    <input name="password"  type="password" class="password" placeholder="Password" required>
+                    <input name="confirmpassword"   type="password" class="password" placeholder="Confirm Password" required>
+                    <input type="submit" class="button" value="Register">
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <img src="./images/facebook.png" alt=""/>
+            <img src="./images/twitter.png" alt=""/>
+            <img src="./images/insta.jpg" alt=""/>
+            <p>Copyright © 2021 Techcare. All rights reserved.</p>
+    <p>Mail Us: techcare@gmail.com</p>
+           </div>
+    </main>
+</body>
+</html> 
