@@ -12,7 +12,7 @@ const sgMail = require('@sendgrid/mail')
 
 sgMail.setApiKey(API_KEY)
 
-sgMail.setApiKey('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')
+
 // const db ='mongodb://localhost:27017/glorifydb'
 const db ='mongodb+srv://hackathon:online@cluster0.wkx7c.mongodb.net/User?retryWrites=true&w=majority'
 mongoose.connect(db,  {
